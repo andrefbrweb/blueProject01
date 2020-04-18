@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Default css framework</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+
+<section class="container">
+
+    <h1>Lista de tarefas</h1>
+
+    <ul id="userList"></ul>
+
+    <form>
+    <div class="row">
+        <label class="col" for="nameInput">Nome</label>
+        <input class="col col-6" type="text" class="form-control" id="nameInput" placeholder="Nome">
+    </div>
+    <div class="row">
+        <label class="col" for="ageInput">Idade</label>
+        <input class="col col-6" type="text" class="form-control" id="ageInput" placeholder="Nome">
+    </div>
+
+    <button id="addButton" class=" botao destacado">Adicionar</button>
+
+    </form>
+    
+</section>
+        
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+<script src="firebase.js"></script>
+
+    </body>
+</html>
